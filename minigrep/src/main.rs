@@ -9,6 +9,13 @@ fn main() {
         println!("Problem parsing arguments: {error}");
         process::exit(1);
     });
+
+    run(config);
+}
+
+fn run(config: Config) {
+   let contents = fs::read_to_string(config.file_path)
+       .expect("Shoudl have been able to read the file");
 }
 
 struct Config {
