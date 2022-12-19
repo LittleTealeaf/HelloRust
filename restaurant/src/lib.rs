@@ -45,3 +45,10 @@ pub fn eat_at_restaurant_back() {
     println!("I'd like {} toast please", meal.toast);
 }
 
+use crate::front_of_house::hosting;
+
+pub fn eat_at_restaurant_using() {
+    hosting::add_to_waitlist();
+}
+// use the package instead of using the fuction and only importing that function
+
