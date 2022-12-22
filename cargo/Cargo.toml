@@ -1,0 +1,9 @@
+[package]
+name = "cargo"
+version = "0.1.0"
+edition = "2021"
+description = "A test package for me to use to learn alongside the documentation"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
